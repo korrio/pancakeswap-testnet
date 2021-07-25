@@ -19,7 +19,7 @@
 - replace MULTICALL abi in `/src/constants/multicall/abi.json`
 
 # Supported ChainIds
-- mod supportedChainIds to [1,4] in `/src/connectors/index.ts`
+- mod supportedChainIds to `[1,4]` in `/src/connectors/index.ts`
 - mod `enum ChainId` `MAINNET = 1, BSCTESTNET = 4` in `/src/sdk/constants.ts`
 - mod `BSCSCAN_PREFIXES` in `/src/utils/index.ts`
 `{
@@ -28,5 +28,5 @@
 }`
 
 # Tokenlist
-- Add your ERC20Token to tokenlist in `pancakeswap.json`
-- Make sure your chainId in tokenlist is all `4`
+- Add your `ERC20Token` to tokenlist in `pancakeswap.json`
+- Make sure your chainId in tokenlist is all `4` (rinkeby)
