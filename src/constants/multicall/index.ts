@@ -2,8 +2,8 @@ import { ChainId } from '../../sdk'
 import MULTICALL_ABI from './abi.json'
 
 const MULTICALL_NETWORKS: { [chainId in ChainId]: string } = {
-  [ChainId.MAINNET]: '0x1Ee38d535d541c55C9dae27B12edf090C608E6Fb', // TODO
-  [ChainId.BSCTESTNET]: '0x301907b5835a2d723Fe3e9E8C5Bc5375d5c1236A'
+  [ChainId.MAINNET]: '0xeefba1e63905ef1d7acba5a8513c70307c1ce441', // TODO
+  [ChainId.BSCTESTNET]: '0x42ad527de7d4e9d9d011ac45b31d8551f8fe9821'
 }
 
 export { MULTICALL_ABI, MULTICALL_NETWORKS }
