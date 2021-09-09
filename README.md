@@ -1,24 +1,25 @@
-## :pancakes: Pancake Swap Exchange (BSC-testnet)
+# :pancakes: Pancake Swap Exchange (BSC-testnet)
 
-# Prepare your smartcontract
+## Prepare your smartcontract
 - Router address
 - Factory address
 - WETH address
 
-# Instructions
+## Instructions
 - mod .env to rinkeby configuration
 - mod `ROUTER_ADDRESS` in `/src/constants/index.ts`
 - mod `FACTORY_ADDRESS` and `INIT_CODE_HASH` in `/src/sdk/constants.ts`
 <!-- - mod `MULTICALL_ADDRESS` in `/src/constants/multicall/index.ts` -->
 
-# Prepare .env / .env.production / .env.development 
+## Prepare .env / .env.production / .env.development 
 - REACT_APP_NETWORK_URL=BSC_TESTNET_RPC_URL
 - REACT_APP_CHAIN_ID=97
 
-<!-- # Custom WETH
+## Custom WETH
 - replace WETH (address) in `/src/sdk/entities/token.ts`
 - replace WETH abi in `/src/constants/abis/weth.json`
 
+<!-- 
 # Get multicall address from https://github.com/makerdao/multicall
 - replace MULTICALL abi in `/src/constants/multicall/abi.json`
 
