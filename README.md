@@ -9,7 +9,11 @@
 - mod .env to rinkeby configuration
 - mod `ROUTER_ADDRESS` in `/src/constants/index.ts`
 - mod `FACTORY_ADDRESS` and `INIT_CODE_HASH` in `/src/sdk/constants.ts`
-- mod `MULTICALL_ADDRESS` in `/src/constants/multicall/index.ts`
+<!-- - mod `MULTICALL_ADDRESS` in `/src/constants/multicall/index.ts` -->
+
+# Modify .env / .env.production / .env.development rpc url
+- REACT_APP_NETWORK_URL=BSC_TESTNET_RPC_URL
+- REACT_APP_CHAIN_ID=97
 
 <!-- # Custom WETH
 - replace WETH (address) in `/src/sdk/entities/token.ts`
