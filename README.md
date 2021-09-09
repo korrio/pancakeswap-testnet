@@ -32,5 +32,5 @@
 }` -->
 
 # Tokenlist
-- Add your `ERC20Token` to tokenlist in `pancakeswap.json`
-- Make sure your chainId in tokenlist is all `4` (rinkeby)
+- Add your `ERC20` to tokenlist in `/constants/token/pancakeswap.json`
+- Make sure your chainId in tokenlist is all `97` (bsc testnet)
