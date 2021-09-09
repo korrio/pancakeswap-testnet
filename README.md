@@ -28,7 +28,7 @@
 - mod `BSCSCAN_PREFIXES` in `/src/utils/index.ts`
 `{
   1: '',
-  4: 'rinkeby.'
+  97: 'testnet.'
 }` 
 
 # Tokenlist
