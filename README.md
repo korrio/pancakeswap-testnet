@@ -11,7 +11,7 @@
 - mod `FACTORY_ADDRESS` and `INIT_CODE_HASH` in `/src/sdk/constants.ts`
 - mod `MULTICALL_ADDRESS` in `/src/constants/multicall/index.ts`
 
-# Custom WETH
+<!-- # Custom WETH
 - replace WETH (address) in `/src/sdk/entities/token.ts`
 - replace WETH abi in `/src/constants/abis/weth.json`
 
@@ -25,7 +25,7 @@
 `{
   1: '',
   4: 'rinkeby.'
-}`
+}` -->
 
 # Tokenlist
 - Add your `ERC20Token` to tokenlist in `pancakeswap.json`
