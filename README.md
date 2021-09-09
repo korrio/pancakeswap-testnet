@@ -1,4 +1,4 @@
-## :pancakes: Pancake Swap Exchange (Rinkeby)
+## :pancakes: Pancake Swap Exchange (BSC-testnet)
 
 # Prepare your smartcontract
 - Router address
